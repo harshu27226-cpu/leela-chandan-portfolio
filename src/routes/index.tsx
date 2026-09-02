@@ -3,6 +3,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { Navbar } from "@/components/portfolio/Navbar";
 import {
   About,
+  Certifications,
   Contact,
   Education,
   Footer,
@@ -13,9 +14,9 @@ import {
 } from "@/components/portfolio/sections";
 import { profile } from "@/lib/portfolio-data";
 
-const title = `${profile.name} — Full Stack Developer Portfolio`;
+const title = `${profile.name} — AI Student & Aspiring Full Stack Developer`;
 const description =
-  "Futuristic portfolio of a fresher Full Stack Developer skilled in Java, Spring Boot, React, Node.js and MongoDB. Building future with code.";
+  "Portfolio of Sidagam Leela Chandana, B.Tech CSE (AI) student and aspiring Full Stack Developer skilled in Python, C, HTML, Data Structures and DBMS. Building the future with code.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
