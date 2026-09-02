@@ -25,7 +25,7 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import { ParticleField, Reveal, TypingText } from "./effects";
-import { certifications, education, profile, skillGroups, stats } from "@/lib/portfolio-data";
+import { certifications, education, profile, projects, skillGroups, stats } from "@/lib/portfolio-data";
 
 function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) {
   return (
@@ -213,7 +213,41 @@ export function Projects() {
           </p>
         </div>
       </Reveal>
-      <div className="mt-6 grid gap-6 sm:grid-cols-3">
+
+      {projects.length > 0 && (
+        <div className="mt-10 grid gap-6 md:grid-cols-2">
+          {projects.map((p, i) => (
+            <Reveal key={p.title} delay={i * 100}>
+              <div className="glass card-3d rounded-2xl p-7">
+                <div className="flex items-start justify-between gap-4">
+                  <div className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-primary/15">
+                    <Rocket size={20} className="text-accent" />
+                  </div>
+                  <span className="rounded-full border border-accent/30 px-2.5 py-0.5 text-[10px] tracking-wider text-accent">
+                    {p.status.toUpperCase()}
+                  </span>
+                </div>
+                <h3 className="mt-5 font-display text-lg">{p.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                  {p.description}
+                </p>
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {p.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="rounded-full bg-primary/10 px-2.5 py-1 text-[10px] text-primary"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </Reveal>
+          ))}
+        </div>
+      )}
+
+      <div className="mt-10 grid gap-6 sm:grid-cols-3">
         {placeholders.map((p, i) => (
           <Reveal key={p.label} delay={i * 90}>
             <div className="glass card-3d rounded-2xl p-6 text-center">
