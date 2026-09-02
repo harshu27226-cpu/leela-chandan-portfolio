@@ -63,7 +63,19 @@ export const skillGroups = [
     items: [
       { name: "AI Tools", level: "Familiar" },
       { name: "Multitasking", level: "Strong" },
+      { name: "English", level: "Fluent" },
+      { name: "Telugu", level: "Native" },
     ],
+  },
+];
+
+export const projects = [
+  {
+    title: "Redesigning Lab Experiments",
+    description:
+      "An academic initiative to make laboratory experiments more exploratory than procedural, encouraging deeper understanding through hands-on problem solving.",
+    tags: ["Academic", "Problem Solving", "Learning"],
+    status: "Learning project",
   },
 ];
 
