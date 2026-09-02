@@ -42,6 +42,7 @@ function Index() {
         <Skills />
         <Projects />
         <Education />
+        <Certifications />
         <Goals />
         <Contact />
       </main>
