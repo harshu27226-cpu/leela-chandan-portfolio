@@ -1,107 +1,106 @@
 // Central place to edit personal details.
 export const profile = {
-  name: "Your Name",
-  role: "Full Stack Developer",
-  tagline: "Building Future with Code",
+  name: "Sidagam Leela Chandana",
+  role: "AI Student | Aspiring Full Stack Developer",
+  tagline: "Building the Future with Code",
   rotatingRoles: [
+    "Python Developer",
     "Full Stack Developer",
-    "Java Developer",
-    "Problem Solver",
     "AI Enthusiast",
+    "Problem Solver",
+    "Software Engineering Enthusiast",
   ],
   about:
-    "Hi, I'm Your Name, a passionate Full Stack Developer focused on building modern, scalable, and user-friendly web applications. I enjoy turning ideas into real digital solutions through clean code and creative design. Currently, I am continuously learning and improving my skills in both frontend and backend technologies to become an industry-ready developer.",
-  email: "your.email@example.com",
-  linkedin: "https://linkedin.com/in/your-profile",
-  github: "https://github.com/your-username",
-  college: "Your College Name",
-  degree: "B.Tech, Computer Science Engineering (AI & ML)",
-  graduation: "2026",
+    "Motivated and detail-oriented B.Tech student specializing in Artificial Intelligence with a strong interest in software engineering. Proficient in programming languages such as Python and C, with a good understanding of HTML, Data Structures, and Database Management Systems (DBMS). Passionate about problem-solving and building efficient, user-friendly applications. Eager to learn new technologies and apply my skills in practical environments while continuously growing as a developer.",
+  careerGoal:
+    "As an aspiring Full Stack Developer, I am looking for opportunities where I can contribute my programming and problem-solving skills, learn from experienced professionals, work on real-world applications, and continuously grow as a software developer.",
+  email: "harshu27226@gmail.com",
+  phone: "+91 99492 07668",
+  location: "Visakhapatnam, Andhra Pradesh, India",
+  linkedin: "https://www.linkedin.com/in/sidagam-harshitha-2b692a340",
+  github: "https://github.com/harshu27226-cpu",
+  college: "Vignan Institute of Engineering for Women",
+  collegeLocation: "Kapujarajupetta, Duvvada",
+  degree: "B.Tech — Computer Science and Engineering (Artificial Intelligence)",
+  graduation: "2028",
 };
 
 export const stats = [
   "Fresher",
-  "B.Tech CSE (AI & ML)",
-  "Graduation: 2026",
+  "B.Tech CSE (AI)",
+  "Graduation: 2028",
   "Fast Learner",
-  "Team Player",
+  "Problem Solver",
+  "AI Enthusiast",
 ];
 
 export const skillGroups = [
   {
-    title: "Frontend",
+    title: "Programming",
     items: [
-      { name: "HTML5", level: 92 },
-      { name: "CSS3", level: 88 },
-      { name: "JavaScript", level: 85 },
-      { name: "React", level: 82 },
-      { name: "Tailwind CSS", level: 86 },
-      { name: "Bootstrap", level: 80 },
+      { name: "Python", level: "Intermediate" },
+      { name: "C", level: "Intermediate" },
+      { name: "Java", level: "Learning" },
     ],
   },
   {
-    title: "Backend",
-    items: [
-      { name: "Java", level: 88 },
-      { name: "Spring Boot", level: 78 },
-      { name: "Node.js", level: 76 },
-      { name: "Express.js", level: 74 },
-    ],
+    title: "Web Development",
+    items: [{ name: "HTML", level: "Familiar" }],
   },
   {
     title: "Database",
-    items: [
-      { name: "MySQL", level: 82 },
-      { name: "MongoDB", level: 75 },
-    ],
+    items: [{ name: "DBMS", level: "Familiar" }],
   },
   {
-    title: "Tools",
+    title: "Core",
     items: [
-      { name: "Git", level: 85 },
-      { name: "GitHub", level: 85 },
-      { name: "REST APIs", level: 80 },
-      { name: "VS Code", level: 90 },
+      { name: "Data Structures", level: "Growing" },
+      { name: "Problem Solving", level: "Growing" },
     ],
   },
   {
     title: "Other",
     items: [
-      { name: "OOP", level: 88 },
-      { name: "Problem Solving", level: 84 },
-      { name: "Responsive Design", level: 87 },
+      { name: "AI Tools", level: "Familiar" },
+      { name: "Multitasking", level: "Strong" },
     ],
   },
 ];
 
-export const projects = [
+export const certifications = [
   {
-    title: "Your Featured Project",
-    description:
-      "An end-to-end machine learning solution with model explainability and an interactive analytics dashboard for real-time insights.",
-    stack: ["Python", "Machine Learning", "LightGBM", "SHAP", "Dashboard"],
-    status: "Featured",
+    title: "Digital Edge 101",
+    issuer: "NASSCOM FutureSkills Prime",
+    date: "March 2026",
   },
   {
-    title: "E-Commerce Web App",
-    description:
-      "Full stack storefront with product catalog, cart, secure checkout flow and an admin dashboard.",
-    stack: ["React", "Node.js", "Express", "MongoDB"],
-    status: "Coming soon",
+    title: "AI Fundamentals: Foundations for Understanding AI",
+    issuer: "IBM SkillsBuild",
+    date: "April 2026",
+  },
+];
+
+export const education = [
+  {
+    degree: "Bachelor of Technology",
+    detail: "Computer Science and Engineering (Artificial Intelligence)",
+    school: "Vignan Institute of Engineering for Women",
+    meta: "2024 – 2028 · Kapujarajupetta, Duvvada",
+    primary: true,
   },
   {
-    title: "Task Management System",
-    description:
-      "Collaborative task board with roles, deadlines and progress tracking backed by a REST API.",
-    stack: ["Java", "Spring Boot", "MySQL"],
-    status: "Coming soon",
+    degree: "Intermediate",
+    detail: "MPC",
+    school: "Sri Chaitanya Junior College",
+    meta: "NAD, Visakhapatnam",
+    primary: false,
   },
   {
-    title: "Portfolio Website",
-    description:
-      "This futuristic portfolio — animated, responsive and built with a custom design system.",
-    stack: ["React", "TypeScript", "Tailwind CSS"],
-    status: "Live",
+    degree: "SSC",
+    detail: "Secondary School Certificate",
+    school: "Bhashyam High School",
+    meta: "NAD, Visakhapatnam",
+    primary: false,
   },
 ];
 
@@ -111,6 +110,7 @@ export const navItems = [
   { id: "skills", label: "Skills" },
   { id: "projects", label: "Projects" },
   { id: "education", label: "Education" },
-  { id: "goals", label: "Goals" },
+  { id: "certifications", label: "Certifications" },
+  { id: "goals", label: "Career Goals" },
   { id: "contact", label: "Contact" },
 ];
