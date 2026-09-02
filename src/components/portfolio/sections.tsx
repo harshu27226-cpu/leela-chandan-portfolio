@@ -25,7 +25,7 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import { ParticleField, Reveal, TypingText } from "./effects";
-import { certifications, education, profile, skillGroups, stats } from "@/lib/portfolio-data";
+import { certifications, education, profile, projects, skillGroups, stats } from "@/lib/portfolio-data";
 
 function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) {
   return (
@@ -191,8 +191,6 @@ export function Skills() {
     </section>
   );
 }
-
-import { projects } from "@/lib/portfolio-data";
 
 export function Projects() {
   const placeholders = [
