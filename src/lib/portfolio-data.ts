@@ -38,7 +38,7 @@ export const skillGroups = [
     title: "Programming",
     items: [
       { name: "Python", level: "Basic" },
-      { name: "C", level: "Intermediate" },
+      { name: "C", level: "Basic" },
       { name: "Java", level: "Basic" },
     ],
   },
