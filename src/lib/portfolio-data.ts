@@ -2,10 +2,10 @@
 export const profile = {
   name: "Sidagam Leela Chandana",
   role: "Computer Science (AI) Student | AI Enthusiast",
-  tagline: "Building the Future with Code",
+  tagline: "Exploring Technology with Curiosity",
   rotatingRoles: [
     "Computer Science (AI) Student",
-    "Python Developer",
+    "Continuous Learner",
     "AI Enthusiast",
     "Problem Solver",
   ],
