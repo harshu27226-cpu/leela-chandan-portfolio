@@ -100,6 +100,11 @@ export const certifications = [
     issuer: "IBM SkillsBuild",
     date: "April 2026",
   },
+  {
+    title: "Add-on Course in Database Management System",
+    issuer: "Department of CSE, Vignan Institute of Engineering for Women · 30 Hours",
+    date: "2026",
+  },
 ];
 
 export const education = [
