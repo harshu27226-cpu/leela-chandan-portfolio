@@ -80,6 +80,13 @@ export const projects = [
     tags: ["Academic", "Problem Solving", "Learning"],
     status: "Learning project",
   },
+  {
+    title: "Aluminium Awareness",
+    description:
+      "An awareness initiative focused on protecting health and the environment by highlighting the risks of aluminium misuse and promoting safer, sustainable practices.",
+    tags: ["Awareness", "Health", "Environment"],
+    status: "Learning project",
+  },
 ];
 
 export const certifications = [
