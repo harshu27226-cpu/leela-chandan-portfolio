@@ -44,7 +44,11 @@ export const skillGroups = [
   },
   {
     title: "Web Development",
-    items: [{ name: "HTML", level: "Familiar" }],
+    items: [
+      { name: "HTML", level: "Familiar" },
+      { name: "CSS", level: "Familiar" },
+      { name: "JavaScript", level: "Familiar" },
+    ],
   },
   {
     title: "Database",
