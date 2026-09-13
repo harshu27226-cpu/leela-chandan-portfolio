@@ -27,13 +27,13 @@ import { toast } from "sonner";
 import { ParticleField, Reveal, TypingText } from "./effects";
 import { certifications, education, profile, projects, skillGroups, stats } from "@/lib/portfolio-data";
 
-function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) {
+function SectionHeading({ eyebrow, title }: { eyebrow: string; title?: string }) {
   return (
     <div className="mb-10 text-center">
       <p className="font-display text-xs tracking-[0.4em] text-accent">
         {eyebrow.toUpperCase()}
       </p>
-      <h2 className="mt-3 font-display text-3xl font-bold sm:text-4xl">{title}</h2>
+      {title && <h2 className="mt-3 font-display text-3xl font-bold sm:text-4xl">{title}</h2>}
       <div className="mx-auto mt-4 h-px w-24 bg-gradient-to-r from-transparent via-primary to-transparent" />
     </div>
   );
@@ -110,7 +110,7 @@ export function Hero() {
 export function About() {
   return (
     <section id="about" className="mx-auto max-w-6xl px-5 py-24">
-      <SectionHeading eyebrow="About Me" title="Who I Am" />
+      <SectionHeading eyebrow="About Me" />
       <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
         <Reveal>
           <div className="glass card-3d h-full rounded-2xl p-8">
