@@ -105,6 +105,11 @@ export const certifications = [
     issuer: "Department of CSE, Vignan Institute of Engineering for Women · 30 Hours",
     date: "2026",
   },
+  {
+    title: "Certificate of Appreciation — Eureka Idea Pitching Competition",
+    issuer: "Vignan Institute of Engineering for Women · E-cell",
+    date: "26 Aug 2025",
+  },
 ];
 
 export const education = [
