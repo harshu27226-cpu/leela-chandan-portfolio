@@ -10,9 +10,9 @@ export const profile = {
     "Problem Solver",
   ],
   about:
-    "Motivated and detail-oriented B.Tech student specializing in Artificial Intelligence. Proficient in programming languages such as Python and C, with a good understanding of HTML, CSS, JavaScript, Data Structures, and Database Management Systems (DBMS). Passionate about problem-solving and building efficient, user-friendly applications. Eager to learn new technologies, explore different career paths, and apply my skills in practical environments while continuously growing as a developer.",
+    "Motivated and detail-oriented B.Tech student specializing in Artificial Intelligence. Familiar with programming languages such as Python and C, and with HTML, CSS, JavaScript, Data Structures, and Database Management Systems (DBMS). Passionate about problem-solving and eager to learn new technologies, explore different career paths, and apply my skills in practical environments while continuously growing.",
   careerGoal:
-    "As a Computer Science (AI) student and AI enthusiast, I am looking for opportunities where I can contribute my programming and problem-solving skills, learn from experienced professionals, work on real-world applications, and continuously grow as a developer.",
+    "As a Computer Science (AI) student and AI enthusiast, I am looking for opportunities where I can contribute my programming and problem-solving skills, learn from experienced professionals, work on real-world applications, and continuously grow.",
   email: "harshu27226@gmail.com",
   phone: "+91 99492 07668",
   location: "Visakhapatnam, Andhra Pradesh, India",
