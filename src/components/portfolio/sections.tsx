@@ -110,7 +110,7 @@ export function Hero() {
 export function About() {
   return (
     <section id="about" className="mx-auto max-w-6xl px-5 py-24">
-      <SectionHeading eyebrow="About Me" title="Turning ideas into digital products" />
+      <SectionHeading eyebrow="About Me" title="Who I Am" />
       <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
         <Reveal>
           <div className="glass card-3d h-full rounded-2xl p-8">
@@ -119,7 +119,7 @@ export function About() {
               {[
                 { label: "Degree", value: "B.Tech CSE (AI)" },
                 { label: "Location", value: "Visakhapatnam" },
-                { label: "Focus", value: "Full Stack" },
+                { label: "Focus", value: "Exploring & Learning" },
               ].map((b) => (
                 <div key={b.label} className="rounded-xl border border-border p-4">
                   <p className="text-xs tracking-widest text-muted-foreground">
