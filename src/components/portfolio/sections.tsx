@@ -110,7 +110,7 @@ export function Hero() {
 export function About() {
   return (
     <section id="about" className="mx-auto max-w-6xl px-5 py-24">
-      <SectionHeading eyebrow="About Me" title="Who I Am" />
+      <SectionHeading eyebrow="About Me" />
       <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
         <Reveal>
           <div className="glass card-3d h-full rounded-2xl p-8">
