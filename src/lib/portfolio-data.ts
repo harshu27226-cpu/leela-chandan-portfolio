@@ -16,7 +16,7 @@ export const profile = {
   email: "harshu27226@gmail.com",
   phone: "+91 99492 07668",
   location: "Visakhapatnam, Andhra Pradesh, India",
-  linkedin: "https://www.linkedin.com/in/sidagam-harshitha-2b692a340",
+  linkedin: "https://www.linkedin.com/in/sidagam-harshitha-2b692a340?utm_source=share_via&utm_content=profile&utm_medium=member_android",
   github: "https://github.com/harshu27226-cpu",
   college: "Vignan Institute of Engineering for Women",
   collegeLocation: "Kapujarajupetta, Duvvada",

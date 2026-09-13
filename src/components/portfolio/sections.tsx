@@ -129,6 +129,14 @@ export function About() {
                 </div>
               ))}
             </div>
+            <a
+              href={profile.linkedin}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-6 inline-flex items-center gap-2 rounded-full border border-border px-5 py-2.5 text-sm font-semibold transition-colors hover:border-ring hover:text-accent"
+            >
+              <Linkedin size={16} className="text-accent" /> Connect on LinkedIn
+            </a>
           </div>
         </Reveal>
         <Reveal delay={120}>
