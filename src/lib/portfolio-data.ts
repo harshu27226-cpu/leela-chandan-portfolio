@@ -1,19 +1,18 @@
 // Central place to edit personal details.
 export const profile = {
   name: "Sidagam Leela Chandana",
-  role: "AI Student | Aspiring Full Stack Developer",
+  role: "Computer Science (AI) Student | AI Enthusiast",
   tagline: "Building the Future with Code",
   rotatingRoles: [
+    "Computer Science (AI) Student",
     "Python Developer",
-    "Full Stack Developer",
     "AI Enthusiast",
     "Problem Solver",
-    "Software Engineering Enthusiast",
   ],
   about:
     "Motivated and detail-oriented B.Tech student specializing in Artificial Intelligence with a strong interest in software engineering. Proficient in programming languages such as Python and C, with a good understanding of HTML, Data Structures, and Database Management Systems (DBMS). Passionate about problem-solving and building efficient, user-friendly applications. Eager to learn new technologies and apply my skills in practical environments while continuously growing as a developer.",
   careerGoal:
-    "As an aspiring Full Stack Developer, I am looking for opportunities where I can contribute my programming and problem-solving skills, learn from experienced professionals, work on real-world applications, and continuously grow as a software developer.",
+    "As a Computer Science (AI) student and AI enthusiast, I am looking for opportunities where I can contribute my programming and problem-solving skills, learn from experienced professionals, work on real-world applications, and continuously grow as a developer.",
   email: "harshu27226@gmail.com",
   phone: "+91 99492 07668",
   location: "Visakhapatnam, Andhra Pradesh, India",

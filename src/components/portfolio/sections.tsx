@@ -139,7 +139,7 @@ export function About() {
               </div>
               <div>
                 <p className="font-display text-lg">{profile.name}</p>
-                <p className="text-sm text-muted-foreground">Aspiring Full Stack Developer</p>
+                <p className="text-sm text-muted-foreground">Computer Science (AI) Student | AI Enthusiast</p>
               </div>
             </div>
             <ul className="mt-7 space-y-3">

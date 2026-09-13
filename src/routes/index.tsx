@@ -14,9 +14,9 @@ import {
 } from "@/components/portfolio/sections";
 import { profile } from "@/lib/portfolio-data";
 
-const title = `${profile.name} — AI Student & Aspiring Full Stack Developer`;
+const title = `${profile.name} — Computer Science (AI) Student & AI Enthusiast`;
 const description =
-  "Portfolio of Sidagam Leela Chandana, B.Tech CSE (AI) student and aspiring Full Stack Developer skilled in Python, C, HTML, Data Structures and DBMS. Building the future with code.";
+  "Portfolio of Sidagam Leela Chandana, B.Tech CSE (AI) student and AI enthusiast skilled in Python, C, HTML, Data Structures and DBMS. Building the future with code.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
